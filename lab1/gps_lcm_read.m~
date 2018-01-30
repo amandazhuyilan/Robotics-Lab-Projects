@@ -7,10 +7,10 @@ javaaddpath '/usr/local/share/java/lcm.jar'
 % Let’s assume the logging file is lcm-l.02 in the dir below
 % open log file for reading
 
-static_log_file = lcm.logging.Log('./log/lcm-log-static', 'r'); 
-dynamic_log_file = lcm.logging.Log('./log/lcm-log-dynamic', 'r');
+static_log_file = lcm.logging.Log('/home/amanda/EECE-5698/lab1/log/lcm-log-10min', 'r'); 
+dynamic_log_file = lcm.logging.Log('/home/amanda/EECE-5698/lab1/log/lcm-log-1min', 'r');
 
-% now read the file
+% now read the file 
 % name will % here we are assuming that the channel we are interested in is RDI. Your channel 
 % be different - something to do with GPS
 % also RDI has fields altitude and ranges - GPS will probably have lat, lon, utmx,
@@ -59,26 +59,20 @@ while true
     end
 end
 
-
 figure 
 plot(res_static(:,1), res_static(:,2), '*');
-title("UTM Static Data for 10 min")
-xlabel("UTM-x (meters East)")
-ylabel("UTM-y (meters North)")
-xtickformat('%.5f')
-ytickformat('%.5f')
-set(gca,'XTick',[min(res_static(:,1)), mean(res_static(:,1)), max(res_static(:,1))])
-set(gca,'YTick',[min(res_static(:,2)), mean(res_static(:,2)), max(res_static(:,2))])
-
+title("UTM static data for 10 min")
+xlabel("UTM-x")
+ylabel("UTM-y")
+xtickformat('%.3f')
+ytickformat('%.3f')
+ylim([4712000])
 
 figure 
 plot(res_dynamic(:,1), res_dynamic(:,2), '.');
-title("UTM Dynamic Data for 1 min")
-xlabel("UTM-x (meters East)")
-ylabel("UTM-y (meters North)")
-xtickformat('%.5f')
-ytickformat('%.5f')
-set(gca,'XTick',[min(res_dynamic(:,1)), mean(res_dynamic(:,1)), max(res_dynamic(:,1))])
-set(gca,'YTick',[min(res_dynamic(:,2)), mean(res_dynamic(:,2)), max(res_dynamic(:,2))])
-
+title("UTM dynamic data for 1 min")
+xlabel("UTM-x")
+ylabel("UTM-y")
+xtickformat('%.3f')
+ytickformat('%.3f')
 

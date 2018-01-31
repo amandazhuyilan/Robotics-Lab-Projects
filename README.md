@@ -3,4 +3,4 @@ Programming assignments for 2018 spring EECE 5698 Robotics course. Refer to the 
 
 ### List of Contents
 
-Lab 1. GPS Readings with LCM 
+[Lab 1. GPS Readings with LCM](https://github.com/amandazhuyilan/EECE5698-Robotics/blob/master/lab1/lab1.pdf) 

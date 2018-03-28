@@ -1,0 +1,15 @@
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/_setup_util.py
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/env.sh
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/setup.bash
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/setup.sh
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/setup.zsh
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/.rosinstall
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/share/rtk_gps_pkg/cmake/rtk_gps_pkg-msg-paths.cmake
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/share/roseus/ros/rtk_gps_pkg/manifest.l
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/lib/python2.7/dist-packages/rtk_gps_pkg/__init__.py
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/lib/python2.7/dist-packages/rtk_gps_pkg/__init__.pyc
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/lib/pkgconfig/rtk_gps_pkg.pc
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/share/rtk_gps_pkg/cmake/rtk_gps_pkg-msg-extras.cmake
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/share/rtk_gps_pkg/cmake/rtk_gps_pkgConfig.cmake
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/share/rtk_gps_pkg/cmake/rtk_gps_pkgConfig-version.cmake
+/home/malcolm/dev/school/EECE-5698/lab2_ws/install/share/rtk_gps_pkg/package.xml

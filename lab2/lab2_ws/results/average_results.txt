@@ -1,0 +1,12 @@
+mean(utmx_ClosedStationary) = 3.2766e+05
+mean(utmy_ClosedStationary) = 4.6895e+06
+mean(utmz_ClosedStationary) = 4.7393
+
+mean(utmx_OpenStationary) = 3.2812e+05
+mean(utmy_OpenStationary) = 4.6894e+06
+mean(utmz_OpenStationary) = 20.0814
+
+
+
+
+

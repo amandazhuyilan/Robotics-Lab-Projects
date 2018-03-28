@@ -1,0 +1,10 @@
+<launch>
+ <arg name="host" default="172.20.10.5"/>
+ <arg name="port" default="3000"/>
+ <node pkg="rtk_gps_pkg" type="rtk_gps_node.py" name="rtk_gps_node">
+  <para name="host" value="$(arg host)"/>
+  <para name="port" value="$(arg port)"/>
+ </node>
+ <node pkg="rtk_gps_pkg" type="gps2utm_node.py" name="gps2node_node">
+ </node>
+</launch>

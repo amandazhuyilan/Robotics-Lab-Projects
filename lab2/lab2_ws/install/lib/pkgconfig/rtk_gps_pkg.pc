@@ -1,0 +1,8 @@
+prefix=/home/malcolm/dev/school/EECE-5698/lab2_ws/install
+
+Name: rtk_gps_pkg
+Description: Description of rtk_gps_pkg
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/malcolm/dev/school/EECE-5698/lab2_ws/install/lib 
+Requires: nav_msgs roscpp rospy sensor_msgs

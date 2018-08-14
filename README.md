@@ -1,4 +1,4 @@
-# EECE5698-Robotics
+# Robotics
 Programming assignments for 2018 spring EECE 5698 Robotics course. Refer to the pdf in each corresponding lab folder for detailed information.
 
 ### List of Contents
